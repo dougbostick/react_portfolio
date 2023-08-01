@@ -1,3 +1,5 @@
+@import '../../assets/variables';
+
 .nav-bar {
   background: #181818;
   width: 60px;
@@ -34,7 +36,7 @@
 
     a {
       font-size: 22px;
-      color: #4d4d4e;
+      color: $icon;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -46,7 +48,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: $yellow;
 
         svg {
           opacity: 0;
@@ -91,7 +93,33 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: $yellow;
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+
+    li {
+      margin-bottom: 25%;
+      a {
+        padding: 7px 0;
+        color: $icon;
+        display: block;
+        font-size: 18px;
+        line-height: 26px;
+        &:hover svg {
+          color: $yellow;
+        }
       }
     }
   }

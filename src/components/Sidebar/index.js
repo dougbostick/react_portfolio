@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
   return (
@@ -15,7 +15,7 @@ const Sidebar = () => {
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faHome} />
         </NavLink>
 
         <NavLink
@@ -24,7 +24,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faUser} />
         </NavLink>
 
         <NavLink
@@ -33,7 +33,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>
       <ul>
@@ -43,7 +43,17 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/doug-bostick/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BtmmWvzmkSbWetNBEbc2YCQ%3D%3D"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/dougbostick"
+          >
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
       </ul>

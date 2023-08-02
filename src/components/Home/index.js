@@ -1,7 +1,7 @@
 import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import './index.scss'
-import AnimatedLetters from '../Animated Letters'
+import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 
 const Home = () => {

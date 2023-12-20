@@ -13,7 +13,8 @@ My portolfio is a React application utilizing SCSS for beautiful and dynamic sty
 [ https://word-game-nu.vercel.app/](https://portfolio-og-psi.vercel.app/)
 
  <a href="https://portfolio-og-psi.vercel.app/" target="_blank">
- <img src="https://portfolio-og-psi.vercel.app/" width="600px" />
+ ![LogoBlueBGLightText](https://github.com/dougbostick/react_portfolio/assets/95255667/d014e21b-e1e0-44b8-9fcf-219cae5ab83d)
  </a>
+
 
 
